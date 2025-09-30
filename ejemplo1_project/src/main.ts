@@ -8,7 +8,7 @@ import './Entregables/Clase02/EjercicioComida.ts'
 import './Clase 2/11-genericos.ts'
 import './Entregables/Clase02/EjercicioGenericos.ts'
 import './Clase 2/12-encadenamiento-opcional.ts'
-import './Entregables/Clase02/EjercicioBiblioteca.ts'
+import './Entregables/Clase03/EjercicioBiblioteca.ts'
 
 
 
