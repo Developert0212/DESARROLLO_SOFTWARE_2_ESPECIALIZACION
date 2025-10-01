@@ -8,18 +8,11 @@
   <dd>{{ year() }}</dd>
 
   <td>Descripción:</td>
-  <dd></dd>
+  <dd>{{ getCarDescription() }}</dd>
 
   <td>Estudiante:</td>
   <dd>{{ student() }}</dd>
 
-  <td>Descripción del carro:</td>
-  <dd>{{ getCarDescription() }}</dd>
-
-  <td>Nombre en mayuscula:</td>
-  <dd>{{ student().toUpperCase() }}</dd>
-  <dd>{{ student() | uppercase }}</dd>
-  <dd></dd>
 </dl>
 
 <button (click)="getCarDescription()" class="btn btn-info mx-2">
